@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster|Open+Sans|Orbitron|Play|Space+Mono");
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 80px;
+  font-family: 'Lobster', sans-serif;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 80px;
+  text-align: center;
+}
+h1 {
+  margin-bottom: 20px;
+  padding: 10px;
+}
+hr {
+    height: 1px;
+    width: 60%;
+    border-top: 1px solid #c7c7c7;
+    padding: 0;
+}
+.myrows {
+  margin-bottom: 30px;
+}
+#board {
+  margin-top: 100px;
+}
+#green, #red, #yellow, #blue {
+  width: 150px;
+  height: 150px;
+  min-width: 150px;
+  border: 10px solid #252525;
+}
+#green {
+  background-color: #1c880f;
+  border-top-left-radius: 100%;
+}
+#red {
+  background-color: #9f0d04;
+  border-top-right-radius: 100%;
+}
+#yellow {
+  background-color: #d4ab00;
+  border-bottom-left-radius: 100%;
+}
+#blue {
+  background-color: #0f299c;
+  border-bottom-right-radius: 100%;
+}
+#strictBtn, #startBtn {
+  background-color: #ffbe18;
+  border: 3px solid #464240;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+#strictBtn:hover, #startBtn:hover {
+  cursor: pointer;
+}
+#countNum {
+  background-color: #454646;
+  border: 3px solid #464240;
+  border-radius: 5px;
+  text-align: center;
+  color: red;
+  min-width: 70px;
+  padding: 10px 0px 5px 0px;
+  font-size: 20px;
+  font-family: 'Orbitron', sans-serif;
+}
+.div-btn {
+  margin-top: 50px;
+}
